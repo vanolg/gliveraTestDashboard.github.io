@@ -97,7 +97,7 @@ body {
   height: 24px;
 }
 .main__container {
-  padding: 41px 71px 41px 71px !important;
+  padding: 41px 71px 41px 71px;
 }
 .main__title {
   font-size: 24px;
