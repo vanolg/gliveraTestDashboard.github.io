@@ -1,8 +1,11 @@
 body {
   background: #FAFBFF !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: "Poppins" !important;
   letter-spacing: 0.01em;
+}
+html {
+  overflow-x: hidden !important;
 }
 
 .sidebar {
