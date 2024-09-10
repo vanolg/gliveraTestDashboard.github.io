@@ -1,11 +1,7 @@
 body {
   background: #FAFBFF !important;
-  overflow-x: hidden !important;
   font-family: "Poppins" !important;
   letter-spacing: 0.01em;
-}
-html {
-  overflow-x: hidden !important;
 }
 
 .sidebar {
@@ -323,12 +319,14 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+html, body {
+  overflow-x: hidden !important;
+}
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ul[class] {
