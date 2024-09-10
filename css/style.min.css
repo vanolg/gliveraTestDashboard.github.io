@@ -278,6 +278,9 @@ body {
   .main__title {
     margin-bottom: 26px;
   }
+  .main__container {
+    padding: 20px 32px 1px 32px !important;
+  }
 }
 @media (max-width: 1200px) {
   .main__inner::-webkit-scrollbar {
